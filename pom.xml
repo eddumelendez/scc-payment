@@ -79,6 +79,9 @@
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
 				<version>2.0.1.RELEASE</version>
 				<extensions>true</extensions>
+				<configuration>
+					<baseClassForTests>com.example.sccpayment.BaseContractTestMessaging</baseClassForTests>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
