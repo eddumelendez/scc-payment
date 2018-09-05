@@ -1,16 +1,15 @@
 package com.example.sccpayment;
 
-import org.junit.runner.RunWith;
-
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cloud.contract.verifier.messaging.boot.AutoConfigureMessageVerifier;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 /**
  * @author Eddú Meléndez
  */
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @SpringBootTest(classes = SccPaymentApplication.class)
 @AutoConfigureMessageVerifier
 public class BaseContractTestMessaging {
