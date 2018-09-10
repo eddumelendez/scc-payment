@@ -25,6 +25,6 @@ public class BaseContractTestMessaging {
 
 	public void makeFailingPayment() {
 		String uuid = "d64c361b-29bb-43a9-8fe8-5e7e05493842";
-		this.paymentProducer.performPayment(new PaymentResponse(uuid, PaymentStatus.FAILED));
+		this.paymentProducer.performPayment(new PaymentResponse(uuid, PaymentStatus.FAILURE));
 	}
 }
