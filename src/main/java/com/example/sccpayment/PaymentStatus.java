@@ -6,5 +6,5 @@ package com.example.sccpayment;
 public enum PaymentStatus {
 
 	SUCCESS,
-	FAILED
+	FAILURE
 }
