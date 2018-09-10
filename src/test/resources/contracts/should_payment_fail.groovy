@@ -3,7 +3,7 @@ import org.springframework.cloud.contract.spec.Contract
 Contract.make {
     label "payment_failed"
     input {
-        triggeredBy "makePaymentFails()"
+        triggeredBy "makeFailingPayment()"
     }
     outputMessage {
         sentTo "payments"
