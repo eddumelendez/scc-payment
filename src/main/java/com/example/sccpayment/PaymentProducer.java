@@ -1,7 +1,6 @@
 package com.example.sccpayment;
 
 import org.springframework.cloud.stream.messaging.Source;
-import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Component;
 
 /**
@@ -17,7 +16,7 @@ public class PaymentProducer {
 	}
 
 	public void performPayment(PaymentResponse response) {
-		this.source.output().send(MessageBuilder.withPayload(response).build());
+//		Method implementation missing;
 	}
 
 }
