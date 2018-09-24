@@ -21,8 +21,8 @@ class BaseContractTestsSpec extends Specification {
 		paymentProducer.performPayment(new PaymentResponse(uuid, PaymentStatus.SUCCESS))
 	}
 
-	void makePaymentFails() {
+	void makeFailingPayment() {
 		String uuid = 'd64c361b-29bb-43a9-8fe8-5e7e05493842'
-		paymentProducer.performPayment(new PaymentResponse(uuid, PaymentStatus.FAILED))
+		paymentProducer.performPayment(new PaymentResponse(uuid, PaymentStatus.FAILURE))
 	}
 }
