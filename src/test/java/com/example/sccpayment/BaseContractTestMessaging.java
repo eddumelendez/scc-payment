@@ -9,6 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 /**
  * @author Eddú Meléndez
+ * @author Olga Maciaszek-Sharma
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SccPaymentApplication.class)

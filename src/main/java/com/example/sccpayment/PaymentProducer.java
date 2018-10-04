@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author Eddú Meléndez
+ * @author Olga Maciaszek-Sharma
  */
 @Component
 public class PaymentProducer {
